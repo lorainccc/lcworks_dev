@@ -1,0 +1,12 @@
+/* IE 10+ specific rules */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+div.row hr {
+    margin: -80px auto 40px;
+    height: 10px;
+    padding: 1rem 0;
+    width: 100%;
+}
+ 
+}

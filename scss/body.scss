@@ -1,0 +1,77 @@
+/*!
+Section 3: Body
+*/
+@media screen and (min-width: 39.9375em) {
+	html {
+					margin-top: 27px !important;
+	}
+	.row.maincontainer{
+					background: #ffffff;
+					@include border-radius(10px); // apply the mixin
+					@include box-shadow(1px,1px,2px,rgba(0,0,0,0.5),false);	
+ }
+}	
+@media screen and (max-width: 39.9375em) {
+	.row.maincontainer{
+					background: #ffffff;	
+ }
+}	
+body {
+    font-size: $body-font-size;
+    font-family: $body-font-family;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #202020;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+				background: #DDDDDD;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+    font-family: $header-font-family;
+}
+
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+.columns.gateway-header img {
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+}
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+}
+.row {
+    max-width: 63rem;
+}
+
+.main-container{
+	padding: 2rem 1rem;
+}
+.content-area{
+	padding-left: 0;
+}
+.left-nav-container{
+	padding-top: 0.7rem;
+	padding-left: 0;
+	padding-right: 0;
+}
+.side-bar-container{
+	padding-top: 0.8rem;
+	background:#D3D3D3;
+}
+.row .column-block{
+	padding-right: 0;
+	padding-left: 0.2rem;
+}
+.row .column-block:last-child{
+	padding-right: 0.2rem;
+	padding-left: 0.2rem;
+}

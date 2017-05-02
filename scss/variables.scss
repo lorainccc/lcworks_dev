@@ -1,0 +1,48 @@
+/*!
+Variables Section
+*/
+
+/*!*********************
+CUSTOM VARIABLES
+**********************/
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-extra-bold: 800;
+//$body-font-color: #606060;
+$body-font-color: #fefefe;
+$body-font-family: 'Open Sans', sans-serif;
+$header-font-family: 'Raleway', sans-serif;
+$body-font-size: 1.1rem;
+$lcccblue:#0055a5;
+/*!*********************
+DEFAULT VARIABLES
+**********************/
+
+$global-width: rem-calc(1200);
+$global-font-size: 100%;
+$global-lineheight: 1.5;
+//$primary-color: #2199e8;
+$primary-color: #007bbf;
+$secondary-color: #777;
+$success-color: #3adb76;
+$warning-color: #ffae00;
+$alert-color: #ec5840;
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #0a0a0a;
+$white: #fefefe;
+$body-background: $white;
+
+
+$body-antialiased: true;
+$text-direction: ltr;
+$global-margin: 1rem;
+$global-padding: 1rem;
+$global-margin: 1rem;
+$global-weight-normal: $font-medium;
+$global-weight-bold: $font-bold;
+$global-radius: 0;
+$global-text-direction: ltr;
+$rem-base: 16px;

@@ -1,0 +1,427 @@
+/*!
+Section 5: Navigation
+*/
+
+@media screen and (max-width: 39.9375em){
+	.top-bar, .top-bar ul {
+    background-color: #333;
+	}
+	.menu.vertical > li {
+    border-bottom: solid 1px #777;
+	}
+	.menu.vertical > li:last-child{
+			border-bottom: none;
+	}
+	.is-drilldown-submenu-parent > a::after {
+    border-color: transparent transparent transparent #ffffff;
+	}
+	.menu>li>a:hover {
+    background: #fff;
+    color: #000;
+				text-decoration: underline;
+	}
+	.menu>li>a:active {
+    background: #000;
+    color: #fff;
+				text-decoration: underline;
+	}
+}
+
+header nav a,header nav a:hover {
+    color: #fefefe;
+    font-size: .875rem;
+    font-weight: 600
+}
+
+header ul#header-menu li a {
+    font-size: .78125rem;
+    color: #0055a5;
+    font-weight: 700
+}
+
+header .menu:not(#menu-header-shortcuts):not(.vertical) li:hover,header .dropdown.menu .submenu {
+    background: #0c3b78;
+    border: 0
+}
+
+header li.is-submenu-item {
+    padding: .1rem 0;
+    border-top: 1px solid #0055a5
+}
+
+header .submenu {
+    margin-top: -1px
+}
+
+header .submenu li {
+    text-align: left
+}
+
+header .dropdown.menu .submenu li:hover {
+    background: #fefefe !important;
+    border-top: 1px solid #0055a5 !important
+}
+
+header .dropdown.menu .submenu li:hover a {
+    color: #0c3b78
+}
+
+header li.is-submenu-item:not(.is-drilldown-submenu-item) a {
+    color: #fefefe;
+    font-size: .85rem
+}
+
+header li.is-drilldown-submenu-item {
+    padding: 0
+}
+
+header .dropdown.menu .submenu.first-sub {
+    left: -1rem
+}
+
+header .dropdown.menu>li.is-dropdown-submenu-parent>a {
+    padding-right: 1rem
+}
+
+header .dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+    display: none
+}
+
+.row .row.medium-red-bg{
+    margin: 1rem auto;
+    max-width: 61rem;
+   @include linearGradient(#C50000, #E30000);
+			@include border-radius(10px); // apply the mixin
+}
+li.divider:after {
+    content: "|";
+    color: #5593db
+}
+
+.top-bar {
+    background: #333333;
+    box-shadow: 0 2px 1px -1px #fefefe;
+    -webkit-box-shadow: 0 2px 1px -1px #fefefe;
+    position: relative;
+    -moz-box-shadow: 0 2px 1px -1px #fefefe;
+    z-index: 1000
+}
+
+.top-bar img {
+    margin-left: 20px
+}
+
+.top-bar .top-bar-title {
+    padding: 5px 0
+}
+
+.top-bar .toggle-topbar.menu-icon a:after {
+    box-shadow: 0 10px 0 1px #fff,0 16px 0 1px #fff,0 22px 0 1px #fff;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 16px
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+    color: #fff;
+    height: 34px;
+    line-height: 33px;
+    padding: 0 25px 0 0;
+    position: relative
+}
+
+.menu-icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 20px;
+    height: 16px
+}
+
+.menu-icon::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fefefe;
+    top: 0;
+    left: 0;
+    box-shadow: 0 7px 0 #fefefe,0 14px 0 #fefefe
+}
+
+.menu-icon:hover::after {
+    background: #cacaca;
+    box-shadow: 0 7px 0 #cacaca,0 14px 0 #cacaca
+}
+
+.menu-icon.dark {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 20px;
+    height: 16px
+}
+
+.menu-icon.dark::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #0a0a0a;
+    top: 0;
+    left: 0;
+    box-shadow: 0 7px 0 #0a0a0a,0 14px 0 #0a0a0a
+}
+
+.menu-icon.dark:hover::after {
+    background: #8a8a8a;
+    box-shadow: 0 7px 0 #8a8a8a,0 14px 0 #8a8a8a
+}
+
+.toggle-icon {
+    margin-right: .5rem
+}
+
+.minus {
+    display: none
+}
+
+.ql-link a#quick-link:link {
+    color: #0c3b78 !important;
+    cursor: pointer
+}
+
+#mobile-search {
+    box-shadow: inset 0 0 2px #000
+}
+
+#quick-links {
+    background: #e6e6e6
+}
+
+.mobile-nav-bar {
+    background: #333;
+    padding-top: 1rem;
+    padding-bottom: .5rem
+}
+
+.is-drilldown {
+    margin-bottom: 15px
+}
+
+.screen-reader-text {
+    clip: rect(1px,1px,1px,1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px
+}
+
+.main-navigation ul {
+    border-top: 1px solid rgba(51,51,51,0.1);
+    border-bottom: 1px solid rgba(51,51,51,0.1);
+    list-style: none;
+    margin: 0
+}
+
+.main-navigation .nav-menu>ul>li:first-child,.main-navigation .nav-menu>li:first-child {
+    border-top: 0
+}
+
+.main-navigation li {
+    border-top: 1px solid #eaeaea;
+    border-top: 1px solid rgba(51,51,51,0.1);
+    position: relative;
+    min-height: 40px
+}
+
+.main-navigation a {
+    padding: .5em 0
+}
+
+.main-navigation .menu-item-has-children>a {
+    padding-right: 38px
+}
+
+.dropdown-toggle:after {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: "Genericons";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    speak: none;
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+    vertical-align: top
+}
+
+ul.nav-menu li.current-menu-item ul.sub-menu {
+    display: block;
+}
+
+.main-navigation ul .toggled-on {
+    display: block
+}
+
+.dropdown-toggle {
+    background-color: transparent;
+    border: 0;
+    box-sizing: content-box;
+    content: "";
+    height: 42px;
+    padding: 0;
+    position: absolute;
+    text-transform: lowercase;
+    top: 3px;
+    right: 0;
+    width: 42px
+}
+
+.dropdown-toggle:after {
+    color: #333;
+    content: "\f431";
+    font-size: 24px;
+    line-height: 42px;
+    position: relative;
+    top: 0;
+    left: 1px;
+    width: 42px
+}
+
+.dropdown-toggle:hover,.dropdown-toggle:focus {
+    background-color: #eaeaea;
+    background-color: rgba(51,51,51,0.1)
+}
+
+.dropdown-toggle:focus {
+    outline: 1px solid #c1c1c1;
+    outline: 1px solid rgba(51,51,51,0.3)
+}
+
+.dropdown-toggle.toggle-on:after {
+    content: "\f432"
+}
+
+.dropdown-toggle {
+    height: 32px;
+    top: 4px;
+    width: 32px
+}
+
+.dropdown-toggle:after {
+    font-size: 16px;
+    line-height: 24px;
+    width: 24px
+}
+
+.main-navigation ul ul {
+    margin-left: 1em;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.menu-navigation-container ul.nav-menu {
+    margin: 41px 0 0 0
+}
+
+.current-menu-item.menu-item-has-children ul .toggled-on {
+    display: block;
+}
+
+.clear:before,.clear:after,.site:before,.site:after,.entry-content:before,.entry-content:after,.comment-content:before,.comment-content:after,.site-content:before,.site-content:after,.nav-links:before,.nav-links:after,.comment-navigation:before,.comment-navigation:after,.social-navigation ul:before,.social-navigation ul:after,.textwidget:before,.textwidget:after {
+    content: "";
+    display: table
+}
+
+.clear:after,.site:after,.entry-content:after,.comment-content:after,.site-content:after,.nav-links:after,.comment-navigation:after,.social-navigation ul:after,.textwidget:after {
+    clear: both
+}
+
+ul.sub-menu {
+    padding-top: 15px
+}
+
+nav#site-navigation {
+    padding-bottom: 20px;
+}
+
+#menu-header-shortcuts a:hover{
+ text-decoration: underline;
+}
+
+.menu > li > a:hover {
+background: #fff;	
+	color:#000;
+}
+.menu > li > a:active{
+background: #fff;	
+	color:#000;
+}
+li.current-menu-ancestor, li.current-menu-item {
+background: transparent;
+}
+
+li.current-menu-item a{
+text-decoration: underline;
+}
+
+.main-navigation ul > li.current-menu-ancestor > ul > li {
+border-top: 1px solid #333;
+}
+
+.main-navigation ul > li.current-menu-ancestor > ul > li.current-menu-item > a {
+font-weight: bold;
+}
+.main-navigation ul:not(.sub-menu)>li {
+    border: 1px solid #fff !important;
+    box-shadow: inset 0 0 10px #dcdcdc !important;
+    padding: .75rem 2rem .75rem 1rem !important;
+				background:#dcdcdc;
+}
+
+.main-navigation ul:not(.sub-menu)>li>a {
+    font-size: 1rem !important;
+    color: #C50000 !important;
+    font-weight: 700 !important
+} 
+
+.dropdown-toggle {
+    top: 10px !important;
+    right: 4px
+}
+
+.main-navigation ul ul {
+    margin-left: 0 !important;
+    padding-left: 1rem
+}
+
+.main-navigation ul ul li {
+    border-top: 1px solid #dcdcdc !important;
+    padding-top: .5rem;
+    padding-bottom: .5rem
+}
+
+.main-navigation ul ul li a {
+    color: #333 !important
+}
+
+
+
+@media screen and (min-width: 1074px) {
+    nav.menu-centered {
+        height:36px
+    }
+}

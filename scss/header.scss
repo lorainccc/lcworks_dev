@@ -1,0 +1,40 @@
+/*!
+Section 4: Header
+*/
+input[name=search],input[name=search]:focus {
+    max-width: 260px;
+    width: 100%;
+    height: 2rem;
+    margin: .5rem 0 0 0;
+    border-radius: 20px;
+    padding: .25rem .25rem .25rem 2.2rem;
+    font-size: .75rem;
+    font-weight: 700;
+    background-image: url(/wp-content/themes/lorainccc/images/icons/icon-search.png);
+    background-repeat: no-repeat;
+    background-position: .75rem .45rem
+}
+
+div.searchbox table thead, table tbody, table tfoot{border:0;}
+
+a.skip-link.screen-reader-text {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden
+}
+
+a.skip-link.screen-reader-text:focus {
+    position: static;
+    width: auto;
+    height: auto
+}
+
+ul {
+    margin: 2.5rem;
+}
+td.gsc-clear-button{
+	display: none;
+}

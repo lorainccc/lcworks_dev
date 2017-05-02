@@ -1,0 +1,141 @@
+/*!
+Section 6: Footer
+*/
+footer {
+ margin-top: 1.5rem;
+ background: #ffffff;
+ padding: 1rem 0 2rem 1.2rem;
+ font-size: .75rem;
+	border-top: 1px solid #999;
+}
+footer h2 {
+ font-size: .75rem;
+ color: #333;
+ text-transform: uppercase;
+ font-weight: 700
+}
+
+footer .menu>li>a {
+ padding: 0 .25rem 0 0
+}
+
+footer a{
+	color: #007bbf;
+	font-size: .75rem;
+}
+
+footer p {
+ color: #333;
+ font-size: .75rem;
+	margin-bottom: 0.2rem;
+}
+
+footer a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+footer .footer-logo {
+    margin-bottom: 2.5rem
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 0
+}
+@media only screen and (max-width: 40em) {
+					footer ul {
+								margin:0;
+					}
+}
+
+footer ul li {
+    margin-bottom: .75rem
+}
+
+footer .underline>li>a {
+    text-decoration: none
+}
+
+footer .underline>li>a:hover, a:hover {
+    text-decoration: underline
+}
+
+
+.footer-sm-links {
+    margin-bottom: 2rem
+}
+
+@media screen and (min-width: 40em) {
+		.mobile-app-link img {
+						margin-right: .75rem
+		}
+}
+.website-feedback{
+ margin:10px 0;
+ float:left;
+ width:100%;
+}
+.website-feedback a{
+ text-decoration: none;
+}
+
+.website-feedback a:hover{
+ text-decoration: underline;
+}
+
+
+
+/*! Ryan's Updated Menu Styling */
+.breadcrumb-container {
+    padding: 2rem .9375rem !important;
+    font-size: .8125rem !important
+}
+
+.sidebar-widget {
+    padding-top: 0 !important;
+    margin: 1rem 0 3rem 0 !important
+}
+
+header.entry-header {
+    padding-top: 0 !important
+}
+
+
+
+@media screen and (max-width: 39.9375em) {
+    h1 {
+        font-size:1.35rem;
+        line-height: 105%
+    }
+
+    .white-panel {
+        margin-top: 3rem
+    }
+
+    .cta-icons {
+        margin-bottom: 2rem
+    }
+
+    .footer-sm-links {
+        width: 210px;
+        margin: 0 auto 1rem auto
+    }
+
+    .footer-sm-links li a {
+        padding: 0
+    }
+
+    .footer-sm-links li a img {
+        margin: 0 .25rem
+    }
+
+    footer .row .columns {
+        border-bottom: 1px solid #5593db;
+        padding: 2rem 0 1rem 0
+    }
+
+    footer {
+        padding-bottom: 0
+    }
+}
